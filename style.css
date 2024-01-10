@@ -11,16 +11,25 @@ body {
 
 .max-width-wrapper {
   max-width: 640px;
-  margin: 52px auto;
-  padding: 24px;
-}
-
-.title {
-  margin-bottom: 32px;
+  margin: 0px auto;
+  padding: 0 16px;
 }
 
 .intro-chunk {
-  max-width: 35ch;
+  max-width: 415px;
+  padding: 96px 0 64px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 32px;
+  line-height: 1.2;
+  font-size: 2rem;
 }
 
 .intro-chunk strong {
@@ -28,20 +37,16 @@ body {
 }
 
 main {
-  background-color: hsl(0deg, 0%, 40%);
-  border-top: 8px solid hsl(0deg, 0%, 65%);
-  padding: 32px 0px;
-}
-
-main .max-width-wrapper {
-  margin: 32px auto;
-  padding: 0;
+  background-color: hsl(0, 0%, 40%);
+  border-top: 8px solid hsl(0, 0%, 50%);
+  padding: 64px 0 56px;
 }
 
 .card {
-  background-color: hsl(0deg, 0%, 100%);
-  padding: 16px;
-  padding-top: 8px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 24px;
+  margin: 0px -24px;
+  border-bottom: 8px solid hsl(0, 0%, 70%);
 }
 
 .indented-heading {
@@ -49,8 +54,8 @@ main .max-width-wrapper {
   background-color: hsl(45, 100%, 50%);
   border-bottom: 8px solid hsl(45, 100%, 40%);
   width: fit-content;
-  padding: 16px 24px;
+  padding: 16px 32px;
   font-size: 1.4rem;
   font-weight: bolder;
-  margin-left: -24px;
+  margin-left: -32px;
 }
